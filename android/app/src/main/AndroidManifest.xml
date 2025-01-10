@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="spartan_app"
+        android:label="Spartan"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -39,6 +39,7 @@
     <queries>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
