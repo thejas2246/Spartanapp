@@ -11,22 +11,11 @@ class IntroPage4 extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(0,100,0,0),
         child: Column(
           children: [
-            Text.rich(
-                textAlign: TextAlign.center,
-                TextSpan(children: [
-                  TextSpan(
-                    text: "Compete and Rise Through",
-                    style: TextStyle(
-                      fontSize: 30,
-                    ),
-                  ),
-                  TextSpan(
-                    text: "\n    the Ranks",
-                    style: TextStyle(
-                      fontSize: 30,
-                    ),
-                  ),
-                ])),
+             Text(
+              "Compete and Rise Through \nthe Ranks",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 30),
+            ),
             Text(
               "Track your per formance and celebrate your wins.",
               textAlign: TextAlign.center,

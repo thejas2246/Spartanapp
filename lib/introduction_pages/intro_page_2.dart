@@ -11,28 +11,7 @@ class IntroPage2 extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(0,100,0,0),
         child: Column(
           children: [
-            Container(
-              width: 300,
-              child: Text.rich(
-                textAlign: TextAlign.center,
-                TextSpan(children: [
-                  TextSpan(
-                    text: "Discover Local Sports ",
-                      style: TextStyle(
-                        fontSize: 30,
-                        
-                      ),
-                  ),
-                  TextSpan(
-                    text: "\n    Communities ",
-                      style: TextStyle(
-                        fontSize: 30,
-                        
-                      ),
-                  ),
-                ])
-              )
-            ),
+            Text("Discover Local Sports \n Communities",textAlign: TextAlign.center,style: TextStyle(fontSize: 30),),
             Text("Join games or organize your own events.",textAlign: TextAlign.center,style: TextStyle(
               fontSize: 15
             ),),
