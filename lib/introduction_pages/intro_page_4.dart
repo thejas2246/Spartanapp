@@ -15,7 +15,7 @@ class IntroPage4 extends StatelessWidget {
             Text(
               "Compete and Rise Through \nthe Ranks",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 25, fontFamily: 'Sakana'),
+              style: TextStyle(fontSize: 20, fontFamily: 'Sakana'),
             ),
             Text(
               "Track your per formance and celebrate your wins.",

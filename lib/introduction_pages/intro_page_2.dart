@@ -15,15 +15,13 @@ class IntroPage2 extends StatelessWidget {
             Text(
               "Discover Local Sports \n Communities",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 25,fontFamily: 'Sakana'),
+              style: TextStyle(fontSize: 20, fontFamily: 'Sakana'),
             ),
             Text(
               "Join games or organize your own events.",
               textAlign: TextAlign.center,
               style: GoogleFonts.sofiaSansCondensed(
-              fontSize: 20,
-              fontStyle: FontStyle.italic
-            ),
+                  fontSize: 20, fontStyle: FontStyle.italic),
             ),
             SizedBox(
               height: MediaQuery.sizeOf(context).height * 0.55,
@@ -32,9 +30,9 @@ class IntroPage2 extends StatelessWidget {
               "Find games, tournaments, and teammates to stay \nactive and grow in your sports community",
               textAlign: TextAlign.center,
               style: GoogleFonts.sofiaSansCondensed(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ],
         ),

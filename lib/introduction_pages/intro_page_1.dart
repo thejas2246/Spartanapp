@@ -15,7 +15,7 @@ class IntroPage1 extends StatelessWidget {
             Text(
               "Welcome to Sparta",
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 fontFamily: 'Sakana',
               ),
             ),
