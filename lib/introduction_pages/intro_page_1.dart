@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage1 extends StatelessWidget {
   const IntroPage1({super.key});
@@ -14,17 +15,25 @@ class IntroPage1 extends StatelessWidget {
             Text(
               "Welcome to Sparta",
               style: TextStyle(
-                fontSize: 30,
+                fontSize: 25,
+                fontFamily: 'Sakana',
               ),
             ),
-            Text("Connect Complete Achieve"),
+            Text(
+              "Connect Complete Achieve",
+              style: GoogleFonts.sofiaSansCondensed(
+                  fontSize: 20, fontStyle: FontStyle.italic),
+            ),
             SizedBox(
-              height: MediaQuery.sizeOf(context).height * 0.6,
+              height: MediaQuery.sizeOf(context).height * 0.59,
             ),
             Text(
               "Connect with players, form teams, and \nunlock the joy of competition.",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              style: GoogleFonts.sofiaSansCondensed(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ],
         ),

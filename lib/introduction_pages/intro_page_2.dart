@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage2 extends StatelessWidget {
   const IntroPage2({super.key});
@@ -14,12 +15,15 @@ class IntroPage2 extends StatelessWidget {
             Text(
               "Discover Local Sports \n Communities",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(fontSize: 25,fontFamily: 'Sakana'),
             ),
             Text(
               "Join games or organize your own events.",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 15),
+              style: GoogleFonts.sofiaSansCondensed(
+              fontSize: 20,
+              fontStyle: FontStyle.italic
+            ),
             ),
             SizedBox(
               height: MediaQuery.sizeOf(context).height * 0.55,
@@ -27,7 +31,10 @@ class IntroPage2 extends StatelessWidget {
             Text(
               "Find games, tournaments, and teammates to stay \nactive and grow in your sports community",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              style: GoogleFonts.sofiaSansCondensed(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
             ),
           ],
         ),
