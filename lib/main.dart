@@ -6,7 +6,8 @@ void main(){
 }
 
 class SpartanApp extends StatelessWidget {
-  const SpartanApp({super.key});
+   const SpartanApp({super.key});
+
 
   @override
   Widget build(BuildContext context) {

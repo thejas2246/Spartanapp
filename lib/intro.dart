@@ -4,6 +4,7 @@ import 'package:spartan_app/introduction_pages/intro_page_1.dart';
 import 'package:spartan_app/introduction_pages/intro_page_2.dart';
 import 'package:spartan_app/introduction_pages/intro_page_3.dart';
 import 'package:spartan_app/introduction_pages/intro_page_4.dart';
+import 'package:spartan_app/signin_login.dart';
 
 PageController _controller = PageController();
 
@@ -92,8 +93,13 @@ class NextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return OutlinedButton(
       onPressed: () {
-        _controller.nextPage(
-            duration: Duration(milliseconds: 300), curve: Curves.easeIn);
+        if (!lastpage) {
+          _controller.nextPage(
+              duration: Duration(milliseconds: 300), curve: Curves.easeIn);
+        }
+        else{
+          Navigator.push(context,MaterialPageRoute(builder: (context)=>SigninLogin()));
+        }
       },
       child: lastpage
           ? Text(
