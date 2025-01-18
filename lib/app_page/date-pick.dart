@@ -18,7 +18,7 @@ class Date_pick extends StatelessWidget {
       child: DatePicker(
         DateTime.now(),
         height: 90,
-        width: 60,
+        width: 53,
         initialSelectedDate: DateTime.now(),
         selectionColor: Colors.black,
       ),
